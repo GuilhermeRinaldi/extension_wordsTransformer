@@ -2,7 +2,7 @@
 
 ![capa](https://user-images.githubusercontent.com/37752370/147155312-7d0cc3c6-ac87-41e4-b0b6-e2e820e920e1.png)
 
-![a](https://img.shields.io/static/v1?label=python&message=3.8.8&color=blue&style=for-the-badge&logo=JS)
+![a](https://img.shields.io/static/v1?label=python&message=3.8.8&color=blue&style=for-the-badge&logo=Javascrpit)
 
 
 > Status do Projeto: 🚧👷‍ Em desenvolvimento ⚠️🚧 
