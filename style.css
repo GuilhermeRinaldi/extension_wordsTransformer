@@ -6,7 +6,7 @@
 	--green3:#319081;
 	--green4:#256A5E;
 	--green5:#18433C;
-	--shadow:#DBDADA;
+	--shadow:#E2E0E0;
 }
 
 * {
@@ -75,7 +75,7 @@ textarea {
 	padding: 5px;
 	border-color: var(--green4);
 	background-color: white;
-	box-shadow: 2px 2px var(--shadow);
+	box-shadow: 1px 1px var(--shadow);
 	color: black;
 }
 
@@ -88,15 +88,14 @@ button {
 	color: white;
 	background-color: var(--green3); 
 	border: none;
-	box-shadow: 2px 2px var(--shadow);
+	box-shadow: 1px 1px var(--shadow);
 	border-radius: 5px;
 	padding: 10px 12px;
-
 	font-weight: 900;
 	font-size: 14px;
 	margin: 0px 2px 0px 2px;
 	cursor: pointer;
-	transition: background .2s
+	transition: background .2s;
 }
 
 button:hover {
@@ -116,27 +115,42 @@ button:hover {
 	background-color: white;
 	border-color: var(--green1);
 	text-align: center;
-	box-shadow: 2px 2px var(--shadow);
-	font-size: 20px;
+	box-shadow: 1px 1px var(--shadow);
+	font-weight: 900;
+	font-size: 16px;
+	transition: border-color .2s;
+}
+
+.quantity:hover {
+	border-color: var(--green4);
 }
 
 select {
-	margin: 4px 13px 4px 2px;
+	margin: 0px 18px 0px 0px;
 	width: 147px;
 	height: 38px;
-	border: 2px 2px;
+	border: none;
 	border-radius: 5px;
 	color: black;
 	background-color: white;
 	border-color: var(--green1);
 	text-align: center;
-	box-shadow: 2px 2px var(--shadow);
-	font-size: 20px;
+	box-shadow: 3px 3px var(--shadow);
+	font-weight: 900;
+	font-size: 16px;
+	outline: solid;
+    outline-color: var(--green1);
+    outline-width: 2px;
+    transition: outline-color .2s;
 
 }
 
+select option{
+	font-weight: inherit;
+}
+
 select:hover {
-	border-color: var(--green4);
+	outline-color: var(--green4);
 }
 
 select:focus {
@@ -162,8 +176,6 @@ footer a:hover {
 	color: var(--green4);
 }
 
-
-footer
 
 .shake {
 	animation: shake .1s;
