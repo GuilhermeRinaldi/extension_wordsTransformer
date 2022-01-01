@@ -26,7 +26,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-	Uma extensão que permite modificações no texto como tornar todas maiusculas  e gera lorem ipsum.
+	Uma extensão que permite modificações no texto como tornar todas as letras maiúsculas e gera lorem ipsum.
 </p>
 
 ## Funcionalidades
