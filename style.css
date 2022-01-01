@@ -6,145 +6,173 @@
 	--green3:#319081;
 	--green4:#256A5E;
 	--green5:#18433C;
-
 	--shadow:#DBDADA;
 }
 
-*{
-	background-color: var(--green2);
-	margin:0 auto ;
-	color: white;
+* {
+	margin: 0;
+	padding: 0;
 	font-family: 'Nunito', sans-serif;
-	font-weight: bold;
-	box-sizing: border-box;
+}
+
+body {
+	width: 400px;	
+}
+
+header {
+	width: inherit;
+	background-color: var(--green2);
+}
+
+nav {
+	width: inherit;
+}
+
+nav ul {
+	width: inherit;
+	list-style: none;
+	display: inline-flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+ul li a {
+	text-decoration: none;
+	padding: 10px;
+	display:inline-block;
+	color: white;
+	font-size: 16px;
+	font-weight: 900;
+  	transition: color .2s;
 
 }
 
+ul li a:hover {
+ 	color: var(--green4);
+ }
+
+.active {
+ 	color: var(--green4);
+ 	pointer-events: none;
+ 	cursor: default;
+ }
+
+section {
+	width: inherit;
+	height: 100px;
+	display: inline-flex;
+	flex-flow:  row wrap;
+	justify-content: center;
+	margin-top: 5px;
+	align-items: center;
+}  
+
 textarea {
 	resize: none;
-	border-radius: 5px;
+	border-radius: 10px;
+	padding: 5px;
 	border-color: var(--green4);
 	background-color: white;
 	box-shadow: 2px 2px var(--shadow);
 	color: black;
 }
 
+textarea:focus {
+	outline-color: var(--green4);
+ }
+
+
 button {
+	color: white;
 	background-color: var(--green3); 
 	border: none;
 	box-shadow: 2px 2px var(--shadow);
 	border-radius: 5px;
 	padding: 10px 12px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 20px;
-	margin: 4px 2px;
+
+	font-weight: 900;
+	font-size: 14px;
+	margin: 0px 2px 0px 2px;
 	cursor: pointer;
 	transition: background .2s
+}
+
+button:hover {
+	background-color: var(--green4);
 }
 
 .green1 {
 	background-color: var(--green1);
 }
 
-button:hover {
-	background-color: var(--green4);
-}
-.copyIcon:hover {
-	background-color: var(--green4);
-	padding: 1px 1px;
-}
-
-.content {
-	background-color: white;
-	padding: 5px 10px;
-	display: ;
-}
-
-footer p {
-	text-align: center;
-	font-weight: normal;
+.quantity {
+	margin: 0px 20px 0px 2px;
+	width: 40px;
+	height: 34px;
+	border-radius: 5px;
 	color: black;
+	background-color: white;
+	border-color: var(--green1);
+	text-align: center;
+	box-shadow: 2px 2px var(--shadow);
+	font-size: 20px;
+}
+
+select {
+	margin: 4px 13px 4px 2px;
+	width: 147px;
+	height: 38px;
+	border: 2px 2px;
+	border-radius: 5px;
+	color: black;
+	background-color: white;
+	border-color: var(--green1);
+	text-align: center;
+	box-shadow: 2px 2px var(--shadow);
+	font-size: 20px;
+
+}
+
+select:hover {
 	border-color: var(--green4);
 }
 
-
-ul { 	
- 	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    box-shadow: 2px var(--shadow);
+select:focus {
+	border-color: var(--green4);
 }
 
-a {
+footer {
+	background-color: var(--green2);
+	padding: 2px;
+	margin-top: 5px;
+	text-align: center;
+	color: var(--green5);
+}
+
+footer a {
 	text-decoration: none;
 }
 
- p a {
- 	color: black ;
- 	font-weight: normal;
- }
-
- p a:hover {
- 	color: var(--green5);
- }
-
- ul li{
- 	margin: ;
- }
-
- ul li a {
- 	float: left;
- 	display: inline-block;
-  	padding: 10px;
-  	font-size: 16px;
-  	text-align: center;
-  	color: white;
-  	transition: background .2s;
-
- }
-
-
-
-ul a:hover {
- 	color: var(--green4);
- }
-
- .active {
- 	color: var(--green4);
- 	pointer-events: none;
- 	cursor: default;
- }
-
-textarea:focus {
-	outline-color: var(--green4);
- }
-
-.content .transformerButtons{
-	background-color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: stretch;
+footer a:visited {
+	color: var(--green5);	
 }
-.tooltip {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
+footer a:hover {
+	color: var(--green4);
 }
+
+
+footer
+
+.shake {
+	animation: shake .1s;
+    animation-iteration-count: 2;
+}
+
+@keyframes shake {
+    0% {margin-left: 0;}
+    25% {margin-left: 7px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -7px;}
+    100% {margin-left: 0;}
