@@ -2,10 +2,12 @@
 
 ![capa](https://user-images.githubusercontent.com/37752370/147155312-7d0cc3c6-ac87-41e4-b0b6-e2e820e920e1.png)
 
-![a](https://img.shields.io/static/v1?label=python&message=3.8.8&color=blue&style=for-the-badge&logo=Javascrpit)
+![a](https://img.shields.io/static/v1?label=JavaScript&message=%20&color=yellow&style=for-the-badge&logo=)
+![a](https://img.shields.io/static/v1?label=HTML5&message=%20&color=orange&style=for-the-badge&logo=)
+![a](https://img.shields.io/static/v1?label=CSS3&message=%20&color=purple&style=for-the-badge&logo=)
 
 
-> Status do Projeto: 🚧👷‍ Em desenvolvimento ⚠️🚧 
+> Status do Projeto: ✔️ Concluído
 
 ### Sumário 
 
@@ -24,49 +26,58 @@
 ## Descrição do projeto 
 
 <p align="justify">
-	
+	Uma extensão que permite modificações no texto como tornar todas maiusculas  e gera lorem ipsum.
 </p>
 
 ## Funcionalidades
 
-1. Funcionalidade
+1. Modificar o texto
 
-2. Funcionalidade
+2. Gerar lorem ipsum
 
-3. Funcionalidade 
+## Layout e Deploy
 
-4. Funcionalidade 
+> Link do deploy 
 
-## Layout ou Deploy
 
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
-
-... 
 
 Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ## Pré-requisitos
 
-1. [Python](https://www.python.org/downloads/)
-	- [PysimpleGui](https://pysimplegui.readthedocs.io/en/latest/)
+1. um navegador compatível como:
+	- [Chrome](https://www.google.pt/intl/pt-PT/chrome/?brand=ISCS&gclsrc=ds&gclsrc=ds)
+	- [Brave](https://brave.com/download/)
 
 
+## Como adicionar a extensão
 
-## Como rodar a aplicação
+### Arquivos
 
 No terminal, clone o projeto: 
 
 ```
-git clone 
+git clone https://github.com/GuilhermeRinaldi/extension_wordsTransformer
+```
+ou faça o download 
+
+![1](https://user-images.githubusercontent.com/37752370/147860772-cde21fb0-1744-409c-9dc7-19c2f78bb974.png)
+
+Entre nas configurações e acesse a aba de extensões
+
+```
+brave://extensions/
 ```
 
-## Tarefas em aberto
+![2](https://user-images.githubusercontent.com/37752370/147861112-6f812828-ff43-4e16-882b-1b69087ab723.png)
 
-1. Tarefa  
+```
+chrome://extensions/
+```
 
-2. Tarefa 
+![2](https://user-images.githubusercontent.com/37752370/147861281-d4cda2a4-c221-4062-a665-108ec436219d.png)
+ative o modo desenvolvedor e carregue a pasta da extensão
 
-3. Tarefa 
 
 ## Licença 
 
