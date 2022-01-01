@@ -15,11 +15,11 @@
 
 - [Funcionalidades](#funcionalidades)
 
-- [Deploy da Aplicação](#deploy-da-aplicação-dash)
+- [Deploy e layout](#deploy-e-layout)
 
 - [Pré-requisitos](#pré-requisitos)
 
-- [Como Usar](#como-usar)
+- [Como adicionar a extensão](#como-adicionar-a-extensão)
  
 
 
@@ -35,13 +35,12 @@
 
 2. Gerar lorem ipsum
 
-## Layout e Deploy
+## Deploy e layout
 
-> Link do deploy 
+> Link do deploy: https://guilhermerinaldi.github.io/extension_wordsTransformer/
 
 
-
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
+![3](https://user-images.githubusercontent.com/37752370/147861514-5c62a50e-3469-4268-b200-a4fa4298055b.png)
 
 ## Pré-requisitos
 
