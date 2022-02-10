@@ -91,7 +91,3 @@ document.querySelectorAll("button").forEach( function(button) {
 		}
   	});
 });
-
-
-
-
