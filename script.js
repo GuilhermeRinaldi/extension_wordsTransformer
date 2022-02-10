@@ -60,7 +60,7 @@ document.querySelectorAll("button").forEach( function(button) {
 	    }
 
 	   if (!!document.getElementById("inputText")){
-	    	const inputText = document.getElementById("inputText").value;	
+	    	const inputText = document.getElementById("inputText").value.trim();	
 	    	if (inputText === "") {
 	    	    shake("inputText");
 	        }
